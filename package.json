@@ -2,10 +2,11 @@
   "name": "actions-demo",
   "version": "1.0.0",
   "description": "Play around Github Actions",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "echo \"Doing build\"",
-    "test": "ls -la"
+    "test": "tap"
   },
   "repository": {
     "type": "git",
