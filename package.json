@@ -5,7 +5,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Doing build\"",
+    "build": "ncc build index.js",
     "test": "tap"
   },
   "repository": {
@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/jhonrocha/actions-demo#readme",
   "devDependencies": {
+    "@vercel/ncc": "^0.33.1",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "tap": "^15.1.6"
   },
   "dependencies": {
     "@actions/core": "^1.6.0",
