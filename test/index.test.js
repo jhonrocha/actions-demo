@@ -1,3 +1,3 @@
-import test from "tap"
+const test = require("tap");
 
-test.pass('All good here!')
+test.pass("All good here!");

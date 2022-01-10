@@ -2,7 +2,7 @@
   "name": "actions-demo",
   "version": "1.0.0",
   "description": "Play around Github Actions",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "build": "echo \"Doing build\"",
@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/jhonrocha/actions-demo#readme",
   "devDependencies": {
-    "tap": "^15.1.6"
+  },
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
   }
 }
