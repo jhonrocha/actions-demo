@@ -7,8 +7,10 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: jhonrocha/actions-demo@v1.2
+        uses: jhonrocha/actions-demo@v1.3
         with:
           who-to-greet: 'Jhon The Rock'
-        - name: Get the output time
-          run: echo "The time was ${{ steps.hello.outputs.time }}"
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
+
+
